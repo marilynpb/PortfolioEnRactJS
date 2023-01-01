@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/CVOnline/static/css/main.d58a0dec.css",
+    "main.js": "/CVOnline/static/js/main.44dae0c0.js",
+    "static/media/video2.mp4": "/CVOnline/static/media/video2.7abc4a61e5aedee285a6.mp4",
+    "static/media/video4.mp4": "/CVOnline/static/media/video4.c270935c4cc02e0a6c29.mp4",
+    "static/media/video5.mp4": "/CVOnline/static/media/video5.30186b4f86f53653bd02.mp4",
+    "static/media/11.mp4": "/CVOnline/static/media/11.cfcf54ec3783016a932c.mp4",
+    "static/media/video3.mp4": "/CVOnline/static/media/video3.c8d50a7aac896bb04c39.mp4",
+    "static/media/gluuuuFinal2.png": "/CVOnline/static/media/gluuuuFinal2.74d293b6f91fc680d18e.png",
+    "static/media/CVGloriaMarilynPerezBoyko.pdf": "/CVOnline/static/media/CVGloriaMarilynPerezBoyko.2d206a7f5971c8fc792b.pdf",
+    "static/media/istockphoto-583816756-170667a.jpg": "/CVOnline/static/media/istockphoto-583816756-170667a.a0507881d85b82f6af4c.jpg",
+    "static/media/whatsapp.svg": "/CVOnline/static/media/whatsapp.95761ccdea16f641f9b7ad2cd08aa5f4.svg",
+    "index.html": "/CVOnline/index.html",
+    "static/media/linkedin (1).svg": "/CVOnline/static/media/linkedin (1).5d349970396e0d2915f6aa54af8cb567.svg",
+    "static/media/calendar3.svg": "/CVOnline/static/media/calendar3.5663104c698f078539a8d2daff68e558.svg",
+    "static/media/git.svg": "/CVOnline/static/media/git.2821ced809f3b620a5cdd5f9686077d1.svg",
+    "static/media/6.svg": "/CVOnline/static/media/6.02c6ac5797b5d26b0d9b94e8d1da4ad9.svg",
+    "static/media/8.svg": "/CVOnline/static/media/8.b32f532b5fd8c5f632a00c00bc5b310a.svg",
+    "static/media/envelope.svg": "/CVOnline/static/media/envelope.43649618044ff8467bb536234295a907.svg",
+    "static/media/5.svg": "/CVOnline/static/media/5.8518ff42b2062becefcbb8b0a6ac52fa.svg",
+    "static/media/20.svg": "/CVOnline/static/media/20.43aa14caec48b249a528dd0d02cdf209.svg",
+    "main.d58a0dec.css.map": "/CVOnline/static/css/main.d58a0dec.css.map",
+    "main.44dae0c0.js.map": "/CVOnline/static/js/main.44dae0c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d58a0dec.css",
+    "static/js/main.44dae0c0.js"
+  ]
+}
