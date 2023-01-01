@@ -1,0 +1,75 @@
+.skill{
+    width: 100%;
+    margin-top: -3vh;
+    text-align: center;
+    clear: both;
+    font-size: 2vh;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.skills div{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+}
+
+.skills div li{
+    text-align: end;
+    padding: 0%;
+    list-style: none;
+    font-size: 2.3vh;
+    color: white;
+    margin-bottom: 0.5vh;
+    text-transform: uppercase;
+}
+
+.card{
+    text-align: end;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+meter#barra{
+    width: 20vh;
+    height: 2vh;
+    margin-top: 0%;
+    margin-left: 2vh;
+}
+
+meter::-webkit-meter-bar{
+    background-color: rgb(71, 68, 68);
+}
+
+meter::-webkit-meter-suboptimum-value {
+    background: #f43831;
+}
+
+.subMargin{
+    margin-top: 10%;
+}
+
+@media (max-width:1033px){
+    .skills div li{
+        width: 60%;
+    }
+}
+
+@media (max-width:860px){
+    .skills div li{
+        width: 100%;
+    }
+}

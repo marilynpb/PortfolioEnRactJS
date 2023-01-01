@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.506);
+}
+
+.App{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav{
+    height: 120%;
+    width: 12vh;
+    float: left;
+    position: fixed;
+    text-align: center;
+    z-index: 10;
+}
+
+.lista{
+    width: 100%;
+    height: auto;
+    color: black;
+    display: block;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.izquierda{
+    width: 50.4%;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    transition: all 0.4s ease;
+    text-align: center;
+    margin-left: 5vh;
+    float: left;
+
+    color: black;
+
+    background-image: url(../img/istockphoto-583816756-170667a.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    animation-name: subir;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-delay: 1ms;
+    overflow: hidden;
+}
+
+@keyframes subir{
+    0%{transform: translateY(100%)};
+    50%{transform: translateY(50%)};
+    100%{transform: translateY(0%)};
+}
+
+.derecha{
+    width: 47.8%;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    float: right;
+    background-color: black;
+
+    animation-name: bajar;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-delay: 1ms;
+    overflow: hidden;
+}
+
+@keyframes bajar{
+    0%{transform: translateY(-100%)};
+    50%{transform: translateY(-50%)};
+    100%{transform: translateY(0%)};
+}
+
+h3{
+    color: rgb(248, 248, 251);
+    text-align: center;
+    font-weight: lighter;
+}
+
+h1, h2{
+    text-align: center;
+    clear: both;
+    font-weight: lighter;
+}
+
+.titulo{
+    clear: both;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 3.5vh;
+}
+
+p{
+    font-size: 3.5vh;
+    font-weight: lighter;
+}
+
+.formacion{
+    margin-left: 20%;
+}
+
+.formacion li{
+    margin: 5vh;
+    text-align: justify;
+}
+
+.descarga{
+    margin-top: 20%;
+}
+
+.fondoBlanco{
+    padding-top: 1%;
+    background-color:#222222;
+    color: rgb(17, 16, 16);
+}
+
+.fondoOscuro{
+    padding-top: 1%;
+    background-color:#1c1b1b;
+    color: rgb(35, 34, 34);
+}
+
+
+
+
+
+@media (max-width:2000px){
+    .izquierda{
+        width: 49.6%;
+    }
+}
+
+@media (max-width:1630px){
+    .derecha{
+        width: 47.4%;
+    }
+}
+
+@media (max-width:1615px){
+    .derecha{
+        width: 47.3%;
+    }
+}
+
+@media (max-width:1562px){
+    .derecha{
+        width: 47.1%;
+    }
+}
+
+@media (max-width:1515px){
+    .izquierda{
+        width: 49.6%;
+    }
+}
+
+@media (max-width:1468px){
+    .izquierda{
+        width: 49.5%;
+    }
+}
+
+@media (max-width:1457px){
+    .izquierda{
+        height: 150vh;
+    }
+}
+
+@media (max-width:1426px){
+    .izquierda{
+        width: 49.4%;
+        padding-left: 5%;
+    }
+}
+
+@media (max-width:1384px){
+    .izquierda{
+        width: 49.3%;
+    }
+}
+
+@media (max-width:1345px){
+    .izquierda{
+        width: 49.2%;
+    }
+}
+
+@media (max-width:1309px){
+    .izquierda{
+        width: 49.1%;
+    }
+}
+
+@media (max-width:1276px){
+    .izquierda{
+        width: 48.9%;
+    }
+}
+
+@media (max-width:1243px){
+    .izquierda{
+        width: 48.8%;
+    }
+}
+
+@media (max-width:1211px){
+    .izquierda{
+        width: 48.7%;
+    }
+}
+
+@media (max-width:1181px){
+    .izquierda{
+        width: 48.6%;
+    }
+}
+
+@media (max-width:1153px){
+    .izquierda{
+        width: 48.5%;
+    }
+}
+
+@media (max-width:1126px){
+    .izquierda{
+        width: 48.4%;
+    }
+}
+
+@media (max-width:1102px){
+    .izquierda{
+        width: 48.3%;
+        background-color: blue;
+    }
+}
+
+
+@media (max-width:1076px){
+    .izquierda{
+        width: 48.2%;
+    }
+}
+
+@media (max-width:1057px){
+    .izquierda{
+        width: 40.1%;
+    }
+    .derecha{
+        width: 55%;
+    }
+}
+
+@media (max-width:1031px){
+    .izquierda{
+        display: none;
+    }
+    .derecha{
+        width: 100%;
+        clear: both;
+        padding-left: 20%;
+    }
+}
+
+@media (max-width:562px){
+    nav{
+        width: 8vh;
+    }
+    .derecha{
+        padding-left: 15%;
+    }
+}
+
+@media (max-width:524px){
+    .derecha{
+        padding-left: 12%;
+    }
+}
+
+
+
+

@@ -1,0 +1,58 @@
+.nav ul{
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav li{
+    margin-bottom:3vh;
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+}
+
+nav{
+    background-color: #1A1A1A;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #d2d6d7
+}
+
+.menuIcon{
+    width: 100%;
+    padding-left: 3.5vh;
+    padding-right: 3.5vh;
+    margin-bottom: 10%;
+}
+
+.menuIcon:hover{
+    transform: scale(1.2);
+}
+
+.bordeMenu{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.136);
+}
+
+.bordeTop{
+    border-top: 1px solid rgba(255, 255, 255, 0.136);
+}
+
+@media (max-width:562px){
+    .menuIcon{
+        width: 100%;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        margin-bottom: 10%;
+    }
+}

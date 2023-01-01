@@ -1,0 +1,130 @@
+.portfolio{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.065);
+    margin-left: 26vh;
+    text-align: center;
+    padding-bottom: 8vh;
+    padding-top: 2vh;
+    z-index: 999;
+}
+
+.subtituloPortfolio{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 10vh;
+    color: aliceblue;
+    font-size: 3vh;
+}
+
+.gridProyectos{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 45% 45%;
+}
+
+.gridProyectos div{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    border: 2px solid rgba(255, 255, 255, 0.226);
+    border-radius: 5px;
+}
+
+.gridProyectos div div{
+    border: none;
+}
+
+.contDiv{
+    margin-bottom: 30px;
+}
+
+.tituloPortfolio{
+    padding-top: 3vh;
+}
+
+.proyectoPrincipal{
+    margin-top: 50px;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(61, 63, 63);
+    cursor: pointer;
+    margin-left: 130px;
+}
+
+.proyectoPrincipal div{
+    border: 1px solid  #f7f6f65a;
+    border-radius: 5px 5px 0 0;
+}
+
+.princIMG{
+    border: 2px solid  #f7f6f6;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 5px 5px;
+}
+
+.otros h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.proyectosIMG{
+    width: 100%;
+    height: 85%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.descripcion{
+    color: white;
+    font-size: 18px;
+}
+
+.miniDiv{
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+.miniDescr{
+    font-size: 15px;
+}
+
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+@media (max-width:1426px){
+    .proyectoPrincipal{
+        margin-left:100px;
+    }
+}
+
+@media (max-width:1273px){
+    .proyectoPrincipal{
+        margin-left:90px;
+    }
+}
+
+@media (max-width:1058px){
+    .proyectoPrincipal{
+        margin-left:60px;
+    }
+}
+

@@ -1,0 +1,171 @@
+.miniFoto{
+    width: 40%;
+    height: 45%;
+    margin-left: 50px;
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #000000 0%, #4b4d4e 100%);
+    box-shadow: rgba(118, 118, 120, 0.147) 0px 0px 0px 2px inset, #222222 10px -10px 0px -3px, #f43831 10px -10px
+}
+
+.miPresentacion{
+    margin-top: 0%;
+}
+
+.sobreMi{
+    width:43%;
+    margin-top: 2vh;
+    height: auto;
+    color: white;
+    float: right;
+    margin-right: 4vh;
+}
+
+.sobreMi p{
+    font-size: 2.7vh;
+    font-weight: lighter;
+}
+
+.datosPersonales{
+    width: 92%;
+    float: right;
+    color: white;
+    font-size: 3vh;
+    margin-top: 1vh;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.datosPersonales li{
+    margin: 1.5vh;
+    text-align: start;
+    list-style: none;
+}
+
+.datosPersonales span{
+    color: #f43831;
+}
+
+.subTitulo{
+    color: white;
+    font-weight: bolder;
+    font-size: 4vh;
+    text-align: start;
+    margin-left: 4vh;
+}
+
+.educacion{
+    width: 90%;
+    height: auto;
+    margin-top: 5vh;
+    color: white;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2px solid #f43831;
+}
+
+.educacion div{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    font-size: 2.5vh;
+}
+
+.educacion div h2{
+    color: white;
+    font-size: 3vh;
+    margin-bottom: 3vh;
+}
+
+.calendarioImg{
+    width: 4%;
+    height: 4%;
+    margin-right: 2vh;
+    margin-left: 1vh;
+}
+
+
+@media (max-width:1496px){
+    .miniFoto{
+        width: 36%;
+        height: 40%;
+        margin-top: 35px;
+    }
+    .sobreMi p{
+        font-size: 2.5vh;
+    }
+    .datosPersonales{
+        margin-top: 100px;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:1426px){
+    .sobreMi p{
+        font-size: 2.2vh;
+    }
+}
+
+@media (max-width:1366px){
+    .miniFoto{
+        width: 36%;
+        height: 40%;
+        margin-top: 20px;
+    }
+    .datosPersonales{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:1345px){
+    .datosPersonales{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:1315px){
+    .datosPersonales{
+        padding-left: 50px;
+        font-size: 2.5vh;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width:1262px){
+    .miniFoto{
+        width: 55%;
+        height: 40%;
+        margin-top: 50px;
+    }
+    .sobreMi p{
+        display: none;
+    }
+    .datosPersonales{
+        margin-top: 0%;
+    }
+}
+
+
+@media (max-width:1076px){
+    .miniFoto{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:1055px){
+    .miniFoto{
+        width: 70%;
+        height: 35%;
+    }
+    .sobreMi p{
+        display: none;
+    }
+    .datosPersonales{
+        margin-top: 0%;
+    }
+}
+
+
+
+
+
