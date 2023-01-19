@@ -1,2 +1,3 @@
 # CVOnline
-Portfolio Personal creado en ReactJS con animación.
+Portfolio Personal 
+creado en ReactJS con animación CSS.
